@@ -344,7 +344,7 @@ class AppStrings {
     ptBr: 'Backup e restauração',
     zhHans: '备份与恢复',
     zhHant: '備份與還原',
-    ko: '백업 & 복구',
+    ko: '백업 및 복구',
   );
 
   String get exportLiveBridgeSettingsTitle => tr(
@@ -374,7 +374,7 @@ class AppStrings {
     ptBr: 'Importar do debug JSON',
     zhHans: '从 debug JSON 导入',
     zhHant: '從 debug JSON 匯入',
-    ko: 'debug JSON에서 불러오기',
+    ko: 'Debug JSON에서 불러오기',
   );
 
   String get liveBridgeSettingsExported => tr(
@@ -394,7 +394,7 @@ class AppStrings {
     ptBr: 'Falha ao exportar configurações do LiveBridge.',
     zhHans: '导出 LiveBridge 设置失败。',
     zhHant: '匯出 LiveBridge 設定失敗。',
-    ko: 'LiveBridge 설정을 내보낼 수 없습니다.',
+    ko: 'LiveBridge 설정 내보내기를 실패했습니다.',
   );
 
   String get liveBridgeSettingsImported => tr(
