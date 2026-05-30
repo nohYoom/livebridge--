@@ -9,7 +9,6 @@
         "doordash",
         "grubhub",
         "delivery",
-        "exampleapp",
         "eats",
         "food",
         "meituan",
@@ -20,22 +19,30 @@
         "swiggy",
         "blinkit",
         "instamart",
-        "bigbasket"
+        "bigbasket",
+        "배달의민족",
+        "쿠팡이츠",
+        "요기요",
+        "음식"
       ],
       "text_triggers": [
         "주문",
         "배달",
         "오더",
-        "음식"
+        "음식",
+        "음식점",
+        "레스토랑"
       ],
       "exclude_patterns": [
         "(생일)",
-        "(할인|쿠폰)"
+        "(할인|쿠폰|세일|캐시백|해텍)",
+        "신규 가입",
+        "결제 실패"
       ],
       "signals": [
         {
           "stage": 4,
-          "pattern": "(배달이 완료되었습니다.|만에 완료됐습니다.)"
+          "pattern": "(배달이 완료되었습니다.|만에 완료됐습니다.|배달이 도착했습니다다)"
         },
         {
           "stage": 3,
@@ -67,12 +74,14 @@
         "yandex",
         "didi",
         "grab",
-        "kakaot"
+        "kakaot",
+        "카카오T"
       ],
       "text_triggers": [
         "taxi",
         "ride",
-        "driver"
+        "driver",
+        "택시 기사"
       ],
       "signals": [
         {
@@ -116,7 +125,17 @@
         "nmap",
         "amap",
         "baidu.BaiduMap",
-        "citymapper"
+        "citymapper",
+        "TMAP",
+        "Kakao Navi",
+        "Kakao Map",
+        "Naver Map",
+        "카카오내비",
+        "카카오맵",
+        "네이버 지도",
+        "구글 지도",
+        "지도",
+        "맵"
       ],
       "text_triggers": [
         "좌회전",
