@@ -82,7 +82,9 @@
         "taxi",
         "ride",
         "driver",
-        "택시 기사"
+        "택시 기사",
+        "택시",
+        "기사"
       ],
       "signals": [
         {
@@ -225,7 +227,14 @@
         "shadowsocks"
       ],
       "text_triggers": [
-        "보안 연결"
+        "보안 연결",
+        "네트워크 암호화",
+        "프록시",
+        "프록시 서버",
+        "가상 사설망",
+        "IP 우회",
+        "아이피 변경",
+        "우회 연결"
       ],
       "signals": [
         {
@@ -242,7 +251,9 @@
     "hidden content",
     "notification content hidden",
     "unlock to view",
-    "민감한 알림 콘텐츠 숨김"
+    "민감한 알림 콘텐츠 숨김",
+    "내용 숨김",
+    "잠금을 해제하여 확인"
   ],
   "known_navigation_packages": [
     "ru.dublgis.dgismobile",
@@ -265,7 +276,8 @@
     "인증번호",
     "인증 번호",
     "확인코드",
-    "확인 코드"
+    "확인 코드",
+    "otp"
   ],
   "otp_loose_trigger_pattern": "(?:(?:\\b코드\\b|\\botp\\b|\\b번호\\b|\\b코드\\b)\\s*[:#-]?[\\s]*\\d(?:[\\s-]?\\d){3,7})",
   "money_context_pattern": "(₽|\\$|€|￥|¥|₩|루블|달러|유로)",
