@@ -296,7 +296,9 @@
     "pogoda",
     "clime",
     "1weather",
-    "todayweather"
+    "todayweather",
+    "날씨",
+    "기상청"
   ],
   "weather_context_pattern": "(날씨|온도|습도|바람|강수|기압|기상|내일|구름|비|천둥)",
   "weather_temperature_pattern": "(?<!\\d)([+\\-−]?\\d{1,3})\\s*(?:°(?:\\s*(?:c|f)(?!\\p{L}))?|℃|℉)",
@@ -350,7 +352,8 @@
     "receive",
     "incoming",
     "inbound",
-    "ingress"
+    "ingress",
+    "다운로드"
   ],
   "vpn_upload_markers": [
     "↑",
@@ -362,7 +365,8 @@
     "send",
     "outgoing",
     "outbound",
-    "egress"
+    "egress",
+    "업로드"
   ],
   "otp_code_patterns": [
     "(?:\\b코드\\b|\\b번호\\b)[^\\d\\n]{0,80}(\\d(?:[\\s-]?\\d){3,7})(?!\\d)",
